@@ -62,6 +62,13 @@ abbr[title] {
   border-bottom: 1px dotted
 }
 
+@media screen and (max-width: 767px) {
+  .text-block-6, .text-span {
+      color: black !important;
+  }
+}
+
+
 b,
 strong {
   font-weight: 700
@@ -17470,7 +17477,8 @@ background-color: black;
     text-align: left;
     width: 100%;
     padding-top: 24px;
-    padding-bottom: 24px
+    padding-bottom: 24px;
+    color: black;
   }
 
   .navbar-link.no-border {
